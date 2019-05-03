@@ -35,6 +35,19 @@ body {
   border-bottom: 1px #ddd solid;
 }
 
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .card:hover {
+  background: #3292a6;
+  color: white;
+}
+
+#authors .fab {
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   #showcase {
     min-height: 500px;
